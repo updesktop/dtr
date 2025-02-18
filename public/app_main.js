@@ -5,6 +5,7 @@ var arySysColors=[
 ];
 
 function start_app(){
+  alert('DEBUG_NODE is : '+DEBUG_NODE);
   allow_start(false);
   JBE_ONLINE_NAVI=navigator.onLine;   
   JBE_ONLINE=false;  
