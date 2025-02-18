@@ -1,4 +1,3 @@
-DEBUG_NODE=true;
 function rest_api_start(){  
   showProgress(true);
   if(DEBUG_NODE){
