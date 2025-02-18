@@ -23,6 +23,13 @@ var db_host=fileJsonContent.db_host;
 //console.clear();
 console.log(fileJsonContent);
 
+
+db_host='127.0.0.1';
+db_user='root';
+db_pass='';
+db_dbase='dtr_db';
+
+
 var con = mysql.createConnection({
   host: db_ip,   
   user: 'root',
